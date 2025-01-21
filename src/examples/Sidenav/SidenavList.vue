@@ -35,12 +35,39 @@
       </li>
       
       <li class="nav-item">
-        <sidenav-collapse navText="Аренда авто" :to="{ name: 'Аренда авто' }">
+        <sidenav-collapse navText="Сдать авто" :to="{ name: 'Сдать авто' }">
           <template #icon>
             <settings />
           </template>
         </sidenav-collapse>
       </li>
+
+
+      <li class="nav-item">
+        <sidenav-collapse navText="Документы" :to="{ name: 'Документы' }">
+          <template #icon>
+            <document />
+          </template>
+        </sidenav-collapse>
+      </li>
+
+
+      <li class="nav-item">
+        <sidenav-collapse navText="Мои объявления" :to="{ name: 'Мои объявления' }">
+          <template #icon>
+            <office />
+          </template>
+        </sidenav-collapse>
+      </li>
+
+      <li class="nav-item">
+        <sidenav-collapse navText="Заявки" :to="{ name: 'Заявки' }">
+          <template #icon>
+            <office />
+          </template>
+        </sidenav-collapse>
+      </li>
+
 
       <li class="nav-item">
         <sidenav-collapse navText="Профиль" :to="{ name: 'Профиль' }">

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+ font-family: 'EuropeExtendedC';
+ src: url("fonts/EuropeExtendedC.woff2") format('woff2');
+}
+@font-face {
+ font-family: 'Exo';
+ src: url("fonts/exoregular.woff2") format('woff2');
+}
+
+
+
+.form {
+    display: none;
+    width: 1440px;
+    height: 700px;
+    border-radius: 64px;
+    box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: calc(50% - 720px);
+    top: calc(50% - 350px);
+}
+
+
+.forcars {
+    width: 757px;
+    height: 571px;
+    overflow: hidden;
+    border-radius: 32px;
+    position: absolute;
+    opacity: 0px;
+    left: 65px;
+    top: 64px;
+        
+}
+
+
+.forcars img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.form  a1 {
+    width: 434px;
+    height: 87px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: absolute;
+    left: 852px;
+    top: 192px;
+}
+
+.txthold{
+    width: 481px;
+    height: 108px;
+    position: absolute;
+    left: 852px;
+    top: 64px;
+}
+.form  a2 {
+    width: 481px;
+    height: 108px;
+    font-family: EuropeExtendedC;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35.1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+
+}
+
+.form  span{
+    width: 481px;
+    height: 108px;
+    font-family: EuropeExtendedC;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.71px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+
+}
+
+.form  a3 {
+    width: 434px;
+    height: 87px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: absolute;
+    left: 852px;
+    top: 192px;
+}
+
+
+.afks {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 299px;
+    left: 852px;
+    z-index: 100;
+}
+
+.butonassa {
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, border 0.3s;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 64px;
+    width: 476px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+.doga {
+    background: linear-gradient(#01824E, #104E35); 
+    font-family: 'EuropeExtendedC';
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    border: none;
+}
+.doga:hover {
+    background-color: #ffffff; 
+}
+
+.butonassa img {
+    margin-left: 8px;
+    width: 44px;
+    height: 44px;
+    position: relative;
+    top:0px;
+}
+
+.doga:hover {
+    background: linear-gradient(#004e2f, #092c1e); 
+}
+
+
+.input-field {
+            width: 476px;
+            height: 80px;
+            border: 1px solid #CFCFCF;
+            font-family: 'Montserrat', sans-serif;
+            border-radius: 32px;
+            padding: 0 20px;
+            font-size: 24px;
+            outline: none;
+            box-sizing: border-box;
+
+}
+
+.input-field:not(:last-child) {
+            margin-bottom: 10px;
+}
+
+.input-field::placeholder {
+            color: #CFCFCF;
+}
+
+
+.x{
+    position: absolute;
+    left: 95%;
+    top: 5%;
+    background: linear-gradient(#01824E, #104E35); 
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.x:hover {
+    background: linear-gradient(#004e2f, #092c1e); 
+}
+
+
+
+
